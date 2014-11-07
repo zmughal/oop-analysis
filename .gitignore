@@ -13,3 +13,7 @@ tasks.xml
 /.idea
 .DS_Store
 *.iml
+
+
+# antlr4 generated source
+/src/generated-sources/Java*
