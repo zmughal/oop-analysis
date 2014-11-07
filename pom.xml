@@ -75,6 +75,10 @@
                         </goals>
                     </execution>
                 </executions>
+                <configuration>
+                    <sourceDirectory>${basedir}/antlr4/</sourceDirectory>
+                    <outputDirectory>${basedir}/src/generated-sources</outputDirectory>
+                </configuration>
             </plugin>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
