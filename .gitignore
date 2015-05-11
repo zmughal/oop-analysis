@@ -17,3 +17,6 @@ tasks.xml
 
 # antlr4 generated source
 /src/generated-sources/Java*
+
+# class files for test data
+/data/class
